@@ -23,7 +23,7 @@ Below is a working script that can be added to the Xcode Build Phases, Run Scrip
     companyID="com.makespace";
     companyURL="http://makespace.com";
     target="iphoneos";
-    outputPath="~/Development/MakeSpace/iOS/Docs";
+    outputPath="~/Development/MakeSpace/iOS/Docs/${PROJECT_NAME}";
     # End constants
     /usr/local/bin/appledoc \
     --project-name "${PROJECT_NAME}" \
