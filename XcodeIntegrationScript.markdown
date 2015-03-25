@@ -1,4 +1,4 @@
-Xcode Integration Script
+MakeSpace Xcode Integration Script
 ==========================================
 Sample Script to automate documentation creation using a run script in Xcode. appledoc can be integrated with Xcode in many ways. Below is one of those ways to get you up and running quickly on Xcode 4.6
 
@@ -17,14 +17,13 @@ Sample Script to automate documentation creation using a run script in Xcode. ap
 
 Below is a working script that can be added to the Xcode Build Phases, Run Script
 
-    #appledoc Xcode script  
-    # Start constants  
-    company="ACME";  
-    companyID="com.ACME";
-    companyURL="http://ACME.com";
+    #appledoc Xcode script
+    # Start constants
+    company="MakeSpace";
+    companyID="com.makespace";
+    companyURL="http://makespace.com";
     target="iphoneos";
-    #target="macosx";
-    outputPath="~/help";
+    outputPath="~/Development/MakeSpace/iOS/Docs";
     # End constants
     /usr/local/bin/appledoc \
     --project-name "${PROJECT_NAME}" \
